@@ -10,6 +10,10 @@
   <packaging>pom</packaging>
   <name>Simple Project Chapter Parent Project</name>
   <url>http://sonatype.com/book</url>
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+  </properties>
   <modules>
     <module>simple</module>
   </modules>
